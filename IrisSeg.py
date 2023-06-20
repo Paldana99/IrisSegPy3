@@ -513,7 +513,7 @@ def IrisSeg(image,pup_iters=75, iris_iters= 150,filename="out",save=False,silent
         cv2.imwrite(output_file,res)
 
     print ('Done segmenting!!!')
-    cv2.destroyAllWindows()
+    # cv2.destroyAllWindows()
     return ellipsis_params
 
 if __name__ == '__main__':
